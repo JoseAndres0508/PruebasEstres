@@ -106,6 +106,18 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
+### Convenciones de código
+
+| Elemento | Convención               | Ejemplo        |
+|----------|-----------------------|---------------|
+| Variables y funciones      | snake_case  | calcular_area_trapecio()  |
+| Clases   | PascalCase             | SimuladorCarga       |
+| Constantes   | UPPER_SNAKE_CASE               | T_MAX = 500            |
+| Archivos   | snake_case, uno por módulo          | simulation.py, integration.py            |
+| Type hints   | Obligatorios en la firma          | def f(x: float) -> float:             |
+| Longitud de línea   | Máx. 99 caracteres          | -             |
+
+
 *(Pendiente: este punto de entrada se implementará durante el desarrollo
 de la Fase II — ver `docs/plan_de_trabajo.md`.)*
 
